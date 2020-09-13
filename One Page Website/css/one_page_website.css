@@ -1,0 +1,41 @@
+body {
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url(../images/background_index.jpg);
+    background-position: center;
+    background-color: #FFFBEE;
+    width: 100%;
+    display: 100%;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+form input {
+    width: 30%px;
+    margin:10px;
+    border: 2px solid rgb(0, 60, 139);
+    border-radius: 5px;
+}
+
+.photo {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+.photo img {
+    width: 100%
+}
+
+  .photo-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
